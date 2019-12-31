@@ -8,7 +8,7 @@
 
 TimelineView is a simplest way to crop image to any shapes you like.
 
-<img src="/TimelineView.png" width="200"/>
+<img src="/TimelineView.png" height="500"/>
 
 ## Example
 
