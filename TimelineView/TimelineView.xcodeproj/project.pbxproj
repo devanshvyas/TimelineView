@@ -17,7 +17,6 @@
 		1ADB55BD23BB32F800879D64 /* DottedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB556E23BB32F800879D64 /* DottedLine.swift */; };
 		1ADB55DF23BB32F800879D64 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB55B523BB32F800879D64 /* Timeline.swift */; };
 		1ADB560723BB4B2B00879D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB560623BB4B2B00879D64 /* AppDelegate.swift */; };
-		1ADB560923BB4B2B00879D64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB560823BB4B2B00879D64 /* SceneDelegate.swift */; };
 		1ADB560B23BB4B2B00879D64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB560A23BB4B2B00879D64 /* ViewController.swift */; };
 		1ADB560E23BB4B2B00879D64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB560C23BB4B2B00879D64 /* Main.storyboard */; };
 		1ADB561023BB4B2C00879D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB560F23BB4B2C00879D64 /* Assets.xcassets */; };
@@ -66,7 +65,6 @@
 		1ADB55B523BB32F800879D64 /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
 		1ADB560423BB4B2B00879D64 /* TimelineView-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimelineView-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ADB560623BB4B2B00879D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1ADB560823BB4B2B00879D64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1ADB560A23BB4B2B00879D64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1ADB560D23BB4B2B00879D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1ADB560F23BB4B2C00879D64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -187,7 +185,6 @@
 			isa = PBXGroup;
 			children = (
 				1ADB560623BB4B2B00879D64 /* AppDelegate.swift */,
-				1ADB560823BB4B2B00879D64 /* SceneDelegate.swift */,
 				1ADB560A23BB4B2B00879D64 /* ViewController.swift */,
 				1ADB561823BB4BD100879D64 /* TimelineVC.swift */,
 				1ADB560C23BB4B2B00879D64 /* Main.storyboard */,
@@ -363,7 +360,6 @@
 			files = (
 				1ADB560B23BB4B2B00879D64 /* ViewController.swift in Sources */,
 				1ADB560723BB4B2B00879D64 /* AppDelegate.swift in Sources */,
-				1ADB560923BB4B2B00879D64 /* SceneDelegate.swift in Sources */,
 				1ADB561923BB4BD100879D64 /* TimelineVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -574,6 +570,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "TimelineView-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -591,6 +588,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "TimelineView-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
