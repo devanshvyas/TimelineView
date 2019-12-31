@@ -8,7 +8,7 @@
 
 TimelineView is a simplest way to crop image to any shapes you like.
 
-![alt TimelineView](https://github.com/devanshvyas/TimelineView/blob/master/TimelineView.png)
+![alt TimelineView](https://github.com/devanshvyas/TimelineView/blob/master/TimelineView.png = 250x)
 
 ## Example
 
