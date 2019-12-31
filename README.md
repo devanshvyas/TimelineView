@@ -1,14 +1,13 @@
 # TimelineView
 
 
-[![CI Status](https://img.shields.io/travis/devanshvyas/TimelineView.svg?style=flat)](https://travis-ci.org/devanshvyas/TimelineView)
 [![Version](https://img.shields.io/cocoapods/v/TimelineView.svg?style=flat)](https://cocoapods.org/pods/TimelineView)
 [![License](https://img.shields.io/cocoapods/l/TimelineView.svg?style=flat)](https://cocoapods.org/pods/TimelineView)
 [![Platform](https://img.shields.io/cocoapods/p/TimelineView.svg?style=flat)](https://cocoapods.org/pods/TimelineView)
 
 TimelineView is a simplest way to crop image to any shapes you like.
 
-<img src="/TimelineView.png" height="500"/>
+<center><img src="/TimelineView.png" height="500"/></center>
 
 ## Example
 
