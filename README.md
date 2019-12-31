@@ -29,9 +29,10 @@ pod 'TimelineView'
 ### Adding TimelineView
 
 Add UIView in your UIViewController and  give its custom class to TimelineView,
+
 ![alt TimelineView](https://github.com/devanshvyas/TimelineView/blob/master/AddingView.png)
 
-give outlet to that view and then give Timeline data to that view as follows:
+Give outlet to that view and then give Timeline data to that view as follows:
 
 ```swift
 var darkGreen = UIColor.init(red: 2/255, green: 138/255, blue: 75/255, alpha: 1)
