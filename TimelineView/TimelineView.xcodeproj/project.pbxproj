@@ -24,6 +24,7 @@
 		1ADB561923BB4BD100879D64 /* TimelineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB561823BB4BD100879D64 /* TimelineVC.swift */; };
 		1ADB561A23BB4DAF00879D64 /* TimelineView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB555823BB322500879D64 /* TimelineView.framework */; };
 		1ADB561B23BB4DAF00879D64 /* TimelineView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB555823BB322500879D64 /* TimelineView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1ADB566123BB5D1F00879D64 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB565F23BB5D1900879D64 /* README.md */; };
 		B00B91BC2883D70AC8AC6C0E /* Pods_TimelineView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD389ABD0ECC6D237BFBA0 /* Pods_TimelineView.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		1ADB561223BB4B2C00879D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ADB561423BB4B2C00879D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1ADB561823BB4BD100879D64 /* TimelineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineVC.swift; sourceTree = "<group>"; };
+		1ADB565F23BB5D1900879D64 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		39DD389ABD0ECC6D237BFBA0 /* Pods_TimelineView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimelineView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A2ACF5C5E87F3048D0C2F4 /* Pods-TimelineView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimelineView.debug.xcconfig"; path = "Target Support Files/Pods-TimelineView/Pods-TimelineView.debug.xcconfig"; sourceTree = "<group>"; };
 		CDC225C1615C21489C3AE307 /* Pods-TimelineView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimelineView.release.xcconfig"; path = "Target Support Files/Pods-TimelineView/Pods-TimelineView.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		1ADB554E23BB322500879D64 = {
 			isa = PBXGroup;
 			children = (
+				1ADB565F23BB5D1900879D64 /* README.md */,
 				1ADB555A23BB322500879D64 /* TimelineView */,
 				1ADB560523BB4B2B00879D64 /* TimelineView-Example */,
 				1ADB555923BB322500879D64 /* Products */,
@@ -297,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ADB566123BB5D1F00879D64 /* README.md in Resources */,
 				1ADB55BC23BB32F800879D64 /* TimelineCell.xib in Resources */,
 				1ADB55BB23BB32F800879D64 /* TimelineView.xib in Resources */,
 			);
