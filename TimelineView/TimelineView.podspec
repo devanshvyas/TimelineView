@@ -8,7 +8,7 @@ s.summary = "TimelineView "
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = "0.2.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -27,7 +27,7 @@ s.source = { :git => "https://github.com/devanshvyas/TimelineView.git",
 s.framework = "UIKit"
 
 # 8
-s.source_files = "TimelineView/**/*.{swift}"
+s.source_files = "TimelineView/**/*.{swift,xib}"
 
 # 9
 

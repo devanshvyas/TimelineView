@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Timeline-Example
+//  TimelineView-Example
 //
 //  Created by Devansh Vyas on 31/12/19.
 //  Copyright © 2019 Devansh Vyas. All rights reserved.

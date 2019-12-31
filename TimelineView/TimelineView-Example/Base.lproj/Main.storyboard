@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Knm-o3-ehd">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--TimelineVC-->
+        <scene sceneID="WFr-3H-fNX">
+            <objects>
+                <viewController id="Knm-o3-ehd" customClass="TimelineVC" customModule="TimelineView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cYO-ec-5yY"/>
+                        <viewControllerLayoutGuide type="bottom" id="FTB-Me-xUm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4aX-Rz-YPk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I5R-MP-P1f" customClass="TimelineView" customModule="TimelineView">
+                                <rect key="frame" x="30" y="150.5" width="354" height="681.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Timeline View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p62-cv-H3f">
+                                <rect key="frame" x="137" y="84" width="140" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <color key="textColor" red="0.0078431372550000003" green="0.54117647059999996" blue="0.29411764709999999" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="I5R-MP-P1f" secondAttribute="trailing" constant="10" id="4EW-NF-90D"/>
+                            <constraint firstItem="p62-cv-H3f" firstAttribute="centerX" secondItem="4aX-Rz-YPk" secondAttribute="centerX" id="6bh-T2-UlH"/>
+                            <constraint firstItem="p62-cv-H3f" firstAttribute="top" secondItem="cYO-ec-5yY" secondAttribute="bottom" constant="40" id="MrT-VF-tME"/>
+                            <constraint firstItem="FTB-Me-xUm" firstAttribute="top" secondItem="I5R-MP-P1f" secondAttribute="bottom" constant="30" id="SUP-Eo-2pg"/>
+                            <constraint firstItem="I5R-MP-P1f" firstAttribute="leading" secondItem="4aX-Rz-YPk" secondAttribute="leadingMargin" constant="10" id="iZb-5e-IWR"/>
+                            <constraint firstItem="I5R-MP-P1f" firstAttribute="top" secondItem="p62-cv-H3f" secondAttribute="bottom" constant="40" id="ln7-Vn-oiH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kwb-V9-vIy"/>
+                    </view>
+                    <connections>
+                        <outlet property="timline" destination="I5R-MP-P1f" id="nP2-Cw-W8Q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jsj-VB-Kp3" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-61" y="105"/>
+        </scene>
+    </scenes>
+</document>

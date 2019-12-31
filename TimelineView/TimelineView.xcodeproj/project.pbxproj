@@ -16,8 +16,41 @@
 		1ADB55BC23BB32F800879D64 /* TimelineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB556D23BB32F800879D64 /* TimelineCell.xib */; };
 		1ADB55BD23BB32F800879D64 /* DottedLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB556E23BB32F800879D64 /* DottedLine.swift */; };
 		1ADB55DF23BB32F800879D64 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB55B523BB32F800879D64 /* Timeline.swift */; };
+		1ADB560723BB4B2B00879D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB560623BB4B2B00879D64 /* AppDelegate.swift */; };
+		1ADB560923BB4B2B00879D64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB560823BB4B2B00879D64 /* SceneDelegate.swift */; };
+		1ADB560B23BB4B2B00879D64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB560A23BB4B2B00879D64 /* ViewController.swift */; };
+		1ADB560E23BB4B2B00879D64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB560C23BB4B2B00879D64 /* Main.storyboard */; };
+		1ADB561023BB4B2C00879D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB560F23BB4B2C00879D64 /* Assets.xcassets */; };
+		1ADB561323BB4B2C00879D64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADB561123BB4B2C00879D64 /* LaunchScreen.storyboard */; };
+		1ADB561923BB4BD100879D64 /* TimelineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADB561823BB4BD100879D64 /* TimelineVC.swift */; };
+		1ADB561A23BB4DAF00879D64 /* TimelineView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB555823BB322500879D64 /* TimelineView.framework */; };
+		1ADB561B23BB4DAF00879D64 /* TimelineView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADB555823BB322500879D64 /* TimelineView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B00B91BC2883D70AC8AC6C0E /* Pods_TimelineView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DD389ABD0ECC6D237BFBA0 /* Pods_TimelineView.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ADB561C23BB4DAF00879D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1ADB554F23BB322500879D64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ADB555723BB322500879D64;
+			remoteInfo = TimelineView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1ADB561E23BB4DAF00879D64 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1ADB561B23BB4DAF00879D64 /* TimelineView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1ADB555823BB322500879D64 /* TimelineView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimelineView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +64,15 @@
 		1ADB556D23BB32F800879D64 /* TimelineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineCell.xib; sourceTree = "<group>"; };
 		1ADB556E23BB32F800879D64 /* DottedLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DottedLine.swift; sourceTree = "<group>"; };
 		1ADB55B523BB32F800879D64 /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		1ADB560423BB4B2B00879D64 /* TimelineView-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimelineView-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADB560623BB4B2B00879D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ADB560823BB4B2B00879D64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1ADB560A23BB4B2B00879D64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1ADB560D23BB4B2B00879D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ADB560F23BB4B2C00879D64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ADB561223BB4B2C00879D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ADB561423BB4B2C00879D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ADB561823BB4BD100879D64 /* TimelineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineVC.swift; sourceTree = "<group>"; };
 		39DD389ABD0ECC6D237BFBA0 /* Pods_TimelineView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimelineView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A2ACF5C5E87F3048D0C2F4 /* Pods-TimelineView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimelineView.debug.xcconfig"; path = "Target Support Files/Pods-TimelineView/Pods-TimelineView.debug.xcconfig"; sourceTree = "<group>"; };
 		CDC225C1615C21489C3AE307 /* Pods-TimelineView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimelineView.release.xcconfig"; path = "Target Support Files/Pods-TimelineView/Pods-TimelineView.release.xcconfig"; sourceTree = "<group>"; };
@@ -42,6 +84,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B00B91BC2883D70AC8AC6C0E /* Pods_TimelineView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADB560123BB4B2B00879D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADB561A23BB4DAF00879D64 /* TimelineView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				1ADB555A23BB322500879D64 /* TimelineView */,
+				1ADB560523BB4B2B00879D64 /* TimelineView-Example */,
 				1ADB555923BB322500879D64 /* Products */,
 				E3DACE64FE2F8E1779C89B5B /* Pods */,
 				046648BD320B668A9CBF77B8 /* Frameworks */,
@@ -70,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				1ADB555823BB322500879D64 /* TimelineView.framework */,
+				1ADB560423BB4B2B00879D64 /* TimelineView-Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,13 +183,27 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		1ADB560523BB4B2B00879D64 /* TimelineView-Example */ = {
+			isa = PBXGroup;
+			children = (
+				1ADB560623BB4B2B00879D64 /* AppDelegate.swift */,
+				1ADB560823BB4B2B00879D64 /* SceneDelegate.swift */,
+				1ADB560A23BB4B2B00879D64 /* ViewController.swift */,
+				1ADB561823BB4BD100879D64 /* TimelineVC.swift */,
+				1ADB560C23BB4B2B00879D64 /* Main.storyboard */,
+				1ADB560F23BB4B2C00879D64 /* Assets.xcassets */,
+				1ADB561123BB4B2C00879D64 /* LaunchScreen.storyboard */,
+				1ADB561423BB4B2C00879D64 /* Info.plist */,
+			);
+			path = "TimelineView-Example";
+			sourceTree = "<group>";
+		};
 		E3DACE64FE2F8E1779C89B5B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				C0A2ACF5C5E87F3048D0C2F4 /* Pods-TimelineView.debug.xcconfig */,
 				CDC225C1615C21489C3AE307 /* Pods-TimelineView.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -173,16 +239,39 @@
 			productReference = 1ADB555823BB322500879D64 /* TimelineView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		1ADB560323BB4B2B00879D64 /* TimelineView-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ADB561723BB4B2C00879D64 /* Build configuration list for PBXNativeTarget "TimelineView-Example" */;
+			buildPhases = (
+				1ADB560023BB4B2B00879D64 /* Sources */,
+				1ADB560123BB4B2B00879D64 /* Frameworks */,
+				1ADB560223BB4B2B00879D64 /* Resources */,
+				1ADB561E23BB4DAF00879D64 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ADB561D23BB4DAF00879D64 /* PBXTargetDependency */,
+			);
+			name = "TimelineView-Example";
+			productName = "TimelineView-Example";
+			productReference = 1ADB560423BB4B2B00879D64 /* TimelineView-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		1ADB554F23BB322500879D64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Devansh Vyas";
 				TargetAttributes = {
 					1ADB555723BB322500879D64 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					1ADB560323BB4B2B00879D64 = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
@@ -201,6 +290,7 @@
 			projectRoot = "";
 			targets = (
 				1ADB555723BB322500879D64 /* TimelineView */,
+				1ADB560323BB4B2B00879D64 /* TimelineView-Example */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +302,16 @@
 			files = (
 				1ADB55BC23BB32F800879D64 /* TimelineCell.xib in Resources */,
 				1ADB55BB23BB32F800879D64 /* TimelineView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1ADB560223BB4B2B00879D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADB561323BB4B2C00879D64 /* LaunchScreen.storyboard in Resources */,
+				1ADB561023BB4B2C00879D64 /* Assets.xcassets in Resources */,
+				1ADB560E23BB4B2B00879D64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +357,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1ADB560023BB4B2B00879D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADB560B23BB4B2B00879D64 /* ViewController.swift in Sources */,
+				1ADB560723BB4B2B00879D64 /* AppDelegate.swift in Sources */,
+				1ADB560923BB4B2B00879D64 /* SceneDelegate.swift in Sources */,
+				1ADB561923BB4BD100879D64 /* TimelineVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ADB561D23BB4DAF00879D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1ADB555723BB322500879D64 /* TimelineView */;
+			targetProxy = 1ADB561C23BB4DAF00879D64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1ADB560C23BB4B2B00879D64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADB560D23BB4B2B00879D64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1ADB561123BB4B2C00879D64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ADB561223BB4B2C00879D64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1ADB555E23BB322500879D64 /* Debug */ = {
@@ -430,6 +568,40 @@
 			};
 			name = Release;
 		};
+		1ADB561523BB4B2C00879D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TimelineView-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dev.TimelineView-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ADB561623BB4B2C00879D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TimelineView-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dev.TimelineView-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -447,6 +619,15 @@
 			buildConfigurations = (
 				1ADB556123BB322500879D64 /* Debug */,
 				1ADB556223BB322500879D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ADB561723BB4B2C00879D64 /* Build configuration list for PBXNativeTarget "TimelineView-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ADB561523BB4B2C00879D64 /* Debug */,
+				1ADB561623BB4B2C00879D64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
